@@ -92,7 +92,7 @@ on:
         description: 'Customization JSON'
         required: true
         type: string
-        default: '{"lanip":"192.168.2.1","signaccount":"root","signpassword":"00","wifi2gssid":"wrt","wifi2gpsk":"vadya007","wifi5gssid":"wrt5","wifi5gpsk":"vadya007"}'
+        default: '{"lanip":"192.168.2.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"wrt","wifi2gpsk":"vadya007","wifi5gssid":"wrt5","wifi5gpsk":"vadya007"}'
       nanoversion:
         description: "Build Nano Version"
         type: boolean
